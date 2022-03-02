@@ -1,5 +1,6 @@
 numpy
 pyqt5
+PyQtWebEngine
 pandas
 qtawesome
-scipy
+scipy=1.4.1

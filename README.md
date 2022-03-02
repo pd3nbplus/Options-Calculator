@@ -1,4 +1,3 @@
-> 更多精彩内容请访问[我的博客](https://qsctech-sange.github.io)，一起来康康吧！
 
 # Options Calculator
 
@@ -50,31 +49,28 @@
 
 
 
-## 编译方法
+## 快速启动
 
-项目依赖于 `Python3`以及下列Python包：`numpy`,`pyqt5`,`qtawesome` 和 `scipy`。
+环境配置(在命令行窗口中)
 
-安装完 python 后可进入项目目录通过以下指令安装缺少的包。
-
-```shell
-pip install requirements.txt
+```
+pip install virtualenv
+# 创建虚拟环境
+virtualenv calculator_env
+pip install numpy
+pip install pyqt5
+pip install PyQtWebEngine
+pip install pandas
+pip install qtawesome
+pip install scipy=1.4.1
 ```
 
+启动方法(在命令行窗口中)
 
-
-1. 在 [本页面](<https://github.com/QSCTech-Sange/Options-Calculator>) 下载此仓库，并解压
-2. 在终端中输入
-
-```shell
-cd 到刚刚解压的目录
+```
 cd Frontend
-chmod a+x main.py
-python main.py
+pythin main.py
 ```
-
-即可。
-
-
 
 ## 项目结构
 
